@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/128/16183/16183630.png" type="image/x-icon"><!--puse el logo de la pagina-->
+    <title>Nike Argentina</title>
+    <style>
+        .container {
+            gap: 15px;
+            padding: 200px;
+        }
+
+        .box1 {
+            display: flex;
+            justify-content: center;
+            background-color: black;
+            color: aliceblue;
+            height: 35px;
+            align-items: center;
+
+
+        }/*le puse color a la letra y el fondo, le puse una etiqueta height para la alrura, y lo centre*/
+
+        .lista1 {
+            gap: 15px;
+            display: flex;
+            list-style: none
+        }/*en esta, le puse un gap, para la separacion, y un style, para sacar los puntos de la lista*/
+
+        .lista1 a {
+            color: rgb(0, 0, 0);
+        }
+
+
+        .lista1 li {
+            border-right: 2px solid black;
+            padding-right: 15px;
+        }/*use un border para las lineas de la lista, y un right para el espacio entre el borde derecho y el elemento*/
+
+        .lista1 li {
+            border-right: 2px solid black;
+            padding-right: 15px;
+        }
+
+        .box2 {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(213, 213, 213);
+        }
+
+
+
+        .box3 {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: white;
+
+        }
+
+        .lista2 {
+            gap: 15px;
+            display: flex;
+            list-style: none
+        }
+
+        lista2 li {
+            list-style: none;
+
+        }
+
+        lista2 a {
+            color: rgb(0, 0, 0);
+        }/*le puse color a las letras*/
+
+
+        .box4 {
+            gap: 15px;
+            display: flex;
+            align-items: center;
+        }
+
+        .cantproducto {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+
+        .filtros {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            gap: 15px;
+
+
+        }/*utilice un align para alinear el header, y un space around para separar*/
+
+        .productos {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            justify-content: center;
+        }/*lo que hice fue centrar los productos, y usé una etiqueta para separarlos*/
+
+        .lonuevo {
+            color: rgb(231, 91, 66);
+        }
+
+        .futer {
+            color: white;
+            background-color: black;
+            padding: 37px;
+
+        }/*acá, utilice un color, para las letras, un background para el fondo, y un padding para la separacion*/
+
+        footer ul{
+            list-style: none;
+        }/*esto sirve para sacar los putnos de las listas*/
+
+        footer a {
+            color: white;
+         }/*sirve para cambiarle el color a las letras*/
+
+        .cajafut {
+            display: flex;
+            justify-content: space-around;
+            height: 300px;
+
+        }
+
+        .fut2 {
+            display: flex;
+            justify-content: space-between;
+            gap: 25px;
+            margin: 0 25px;
+        }
+
+        .hotfut {
+            display: flex;
+            justify-content: flex-end;
+            gap: 20px;
+        }
+
+        .header1 {
+            position: fixed;
+            top: 0;
+            width: 100%;
+
+
+
+        }/*usé un position, para dejar el header fijo*/
+
+        .logos {
+            gap: 20px;
+
+        }/*usé este gap, para separar los logos*/
+
+        .logowsp {
+            position: fixed;
+            right: 15px;
+            bottom: 25px;
+            padding: 10;
+
+        }/*utilice un position para que el logo de whatsapp se quede fijo, un right y un padding, para la separacion de los bordes*/
+    </style>
+
+
+
+</head>
+
+<body>
+    <header class="header1">
+        <!--cree una etiqueta header(encabezado), para poner todos los elemntos que van dentro del header-->
+
+        <div class="box1">
+            6 cuotas sin interes en todo el sitio
+        </div>
+        <div class="box2">
+            <div><img
+                    src="https://nikearprod.vtexassets.com/assets/vtex.file-manager-graphql/images/f97c1ee4-0e66-4225-b378-f4ae7d491bc7___39627060035c5a0d813f57675cef86ea.svg"
+                    width="28px"></div>
+            <div>
+                <ul class="lista1">
+                    <li><a href="">Suscribite</a></li>
+                    <li><a href="">Buscar Tienda</a></li>
+                    <li><a href="">Eventos</a></li>
+                    <li><a href="">Ayuda</a></li>
+                </ul>
+            </div> <!--despúes coloque una imagen, e,hice esta lista desordenada -->
+
+        </div>
+        <div class="box3">
+            <div><img
+                    src="https://nikearprod.vtexassets.com/assets/vtex/assets-builder/nikearprod.store/2.0.63/icons/Assets_for_off%20platform/swoosh___33f7ffaf2fc124733c2c4a60a12a1160.svg"
+                    width="70px"></div>
+            <nav>
+                <ul class="lista2">
+                    <li><a href="https://www.nike.com.ar/destacados"><b>Destacados</b></a></li>
+                    <li><a href="https://www.nike.com.ar/hombre"><b>Hombre</b></a></li>
+                    <li><a href="https://www.nike.com.ar/mujer"><b>Mujer</b></a></li>
+                    <li><a href="https://www.nike.com.ar/nike/nino-a?page=2"><b>Niño/a</b></a></li>
+                    <li><a href="https://www.nike.com.ar/accesorios?page=2"><b>Accesorio</b></a></li>
+                    <li><a
+                            href="https://www.nike.com.ar/oportunidades?map=productclusternames&page=2"><b>Oportunidades</b></a>
+                    </li>
+
+                </ul>
+            </nav><!--en esta parte, hice otra lista con enlaces-->
+            <div class="box4">
+                <input class="search" type="text" placeholder="buscar">
+                <img src="./shopping-bag.png" alt="bolsa de compras" height="25px">
+
+            </div>
+
+
+        </div><!--acá puse un input y una imagen para el buscador-->
+
+    </header><!--terminamos la parte del encabezado-->
+
+    <main class="container"><!--cree una caja main, que sería el contenido principal-->
+        <div class="cantproducto">
+            <div>90 productos</div>
+            <div class="filtros">
+                <div>Ocultar Filtros<img src="./filtrar (1).png" width="25px"></div>
+                <div>Ordenar por más reciente<img src="./flecha-hacia-abajo-para-navegar.png" width="15px"></div>
+            </div>
+
+        </div><!--puse unas imagenes-->
+
+        <div class="productos">
+
+
+            <div>
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/1088218-1000-1000?v=638627830380900000&width=1000&height=1000&aspect=true"
+                    width="460px">
+                <div class="lonuevo"><b>Lo nuevo</b></div>
+                <div><b>Nike Heritage</b></div>
+                <div>Riñonera de Moda Unisex</div>
+                <div><b>$59.999</b></div>
+            </div>
+            <div>
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/1087547-1000-1000?v=638627820412070000&width=1000&height=1000&aspect=true"
+                    width="460px">
+                <div class="lonuevo"><b>Lo nuevo</b></div>
+                <div><b>Nike Elemental</b></div>
+                <div>Mochila de Moda para NIño/a</div>
+                <div><b>$75.999</b></div>
+            </div>
+            <div>
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/1100099-1000-1000?v=638628240535000000&width=1000&height=1000&aspect=true"
+                    width="460px">
+                <div class="lonuevo"><b>Lo nuevo</b></div>
+                <div><b> Gym Club</b></div>
+                <div>Bolso de Entrenamiento para Mujer</div>
+                <div><b>$104.499</b></div>
+            </div>
+        </div><!--en esta parte, cree una clase "productos", que irían las imagenes,nombre y precio de los mismos-->
+
+        <div class="productos">
+
+
+            <div>
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/1087544-1000-1000?v=638627820352200000&width=1000&height=1000&aspect=true"
+                    width="460px">
+                <div class="lonuevo"><b>Lo nuevo</b></div>
+                <div><b>Nike Brasilia</b></div>
+                <div>Mochila de Moda Unisex</div>
+                <div><b>$95.999</b></div>
+            </div>
+            <div>
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/973007-1000-1000?v=638551869959800000&width=1000&height=1000&aspect=true"
+                    width="460px">
+                <div class="lonuevo"><b>Lo nuevo</b></div>
+                <div><b>Nike Phantom</b></div>
+                <div>Pelota de FutbolUnisex</div>
+                <div><b>$41.999</b></div>
+            </div>
+            <div>
+                <img src="https://nikearprod.vtexassets.com/arquivos/ids/1087505-1000-1000?v=638627819666270000&width=1000&height=1000&aspect=true"
+                    width="460px">
+                <div class="lonuevo"><b>Lo nuevo</b></div>
+                <div><b>Nike Heritage</b></div>
+                <div>Mochila de Moda Uisex</div>
+                <div><b>$77.999</b></div>
+            </div>
+        </div><!--acá, hice los mismo que en la parte anterior-->
+
+
+    </main><!--se cierra la caja main-->
+
+    <footer class="futer"><!--arrancamos con la ultima parte, creando una caja "footer"-->
+        <div class="cajafut">
+            <div>
+                <ul>
+                    <li><b><a href="">BUSCAR TIENDA</a></b></li>
+                    <li><B><a href="">SUATE A LA COMUNIDAD</a></B></li>
+                    <li><B><a href="">SEGUI TU PEDIDO</a></B></li>
+                </ul>
+            </div>
+            <DIV>
+                <UL>
+                    <LI><B><a href="">AYUDA</a></B></LI>
+                    <LI><a href="">Envios y entregas</a></LI>
+                    <li><a href="">Devoluciones</a></li>
+                    <li><a href="">Cambios</a></li>
+                    <li><a href="">Autogestionar mi devolucion</a></li>
+                    <li><a href="">Opciones de pago</a></li>
+                    <li><a href="">Contactate</a></li>
+                    <li><a href="">Defensa al consumidor</a></li>
+                    <li><a href="">Libro de quejas online</a></li>
+                    <li><b><a href="">Boton de Arrepentimiento</a></b></li>
+                    <li><a href="">Ver todos</a></li>
+            </DIV>
+            <div>
+                <ul>
+                    <li><B><a href="">ACERCA DE NIKE</a></B></li>
+                    <li><a href="">Proposito</a></li>
+                    <li><a href="">Noticias</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li><B><a href="">NOVEDADES DE NIKE</a></B></li>
+                    <li><a href="">Encontra tu calzado</a></li>
+                    <li><a href="">¿Como elegir tu top?</a></li>
+                    <li><a href="">Tips saludables</a></li>
+                    <li><a href="">Promociones</a></li>
+                </ul>
+            </div><!--en toda esta parte, puse los tipos de opciones, con sus enlaces-->
+            <div>
+                <img src="https://nikearprod.vtexassets.com/assets/vtex.file-manager-graphql/images/3b08c03e-be05-49c1-9579-193190c40b2e___d5b5ce1ab2c443765cd3beb7183e1cae.jpg"
+                    width="35px">
+            </div>
+            <div class="logos">
+                <img src="https://cdn-icons-png.flaticon.com/128/5969/5969020.png" width="25px">
+                <img src="https://cdn-icons-png.flaticon.com/128/5968/5968764.png" width="27px">
+                <img src="https://cdn-icons-png.flaticon.com/128/1384/1384060.png" width="27px">
+                <img src="https://cdn-icons-png.flaticon.com/128/174/174855.png" width="25px">
+            </div>
+        </div><!--coloqué las imagenes de los logos(x,instagram,facebook,youtube)-->
+
+        <div class="fut2">
+            <div>
+                <img src="https://png.pngtree.com/png-clipart/20190520/original/pngtree-vector-location-icon-png-image_4280028.jpg"
+                    width="18px">
+                <b>Argentina</b>
+
+                © 2023 Southbay S.R.L. Todos los derechos reservados.
+
+            </div><!--puse con la etiqueta "imagen" el logo 'ubicación'-->
+
+            <div class="hotfut">
+                <div>Hot Sale</div>
+                <div> Términos y Condiciones</div>
+                <div>Política de privacidad y cookies</div>
+
+            </div><!--en esta parte, escribí lo ultimo de la pagina-->
+
+            <div class="logowsp">
+                <a href=""><img src="https://cdn-icons-png.flaticon.com/128/3670/3670051.png" width="50px"></a>
+            </div>
+
+        </div><!--usando una etiqueta "a" e "img", coloque enlace e imagen de 'whatsapp' -->
+    </footer><!--por ultimo, cerramos la caja footer-->
+
+
+
+
+
+</body>
+
+</html>
